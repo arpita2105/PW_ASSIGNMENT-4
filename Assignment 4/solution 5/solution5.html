@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features of HTML5</title>
+    <style>
+        nav a{
+            padding:7px; 
+        }
+    </style>
+
+</head>
+<body>
+    
+   <nav>
+       <a href="#Feature1">Semantic Tags</a>
+       <a href="#Feature2">Audio Playback</a>
+       <a href="#Feature3">Video Playback</a>
+       <a href="#Feature4">Form Enhancements</a>
+       <a href="#Feature5">Article Element</a>
+   </nav><hr>
+
+    <header>
+        <center><h1>HTML5 FEATURES SHOWCASE</h1>
+        <p>Welcome to the HTML5 Features Showcase Webpage</p></center>
+    </header>
+
+    <section>
+        <h3 id="Feature1">1 - <u>SEMANTIC TAGS</u></h3>
+        <p>HTML5 introduces semantic elements like &lt;header&gt;`, &lt;nav&gt;, &lt;section&gt;, and &lt;footer&gt; that improve document structure and accessibility.</p>
+    </section>
+
+    <section>
+        <h3 id="Feature2">2 - <u>AUDIO PLAYBACK</u></h3>
+        <p>HTML5 introduced the <code>&lt;audio&gt;</code> element for inclusion of audio files directly in webpages. <br><br>
+         <b>Example :- </b> </p>
+          <audio controls>
+             <source src="/PW_ASSIGNMENT-4/Assignment 4/solution 5/abhi.mp3" type="audio/mpeg"> 
+             Your browser does not support the audio tag.
+          </audio>
+    </section>
+
+    <section>
+        <h3 id="Feature3">3 - <u>VIDEO PLAYBACK</u></h3>
+        <p>HTML5 introduced the <code>&lt;video&gt;</code> element for embedding
+            videos directly in web pages. <br><br>
+         <b>Example :- </b> </p>
+          <video controls height="300px" width="300px">
+             <source src="/PW_ASSIGNMENT-4/Assignment 4/solution 5/ganesha.mp4" type="video/mp4" > 
+             Your browser does not support the video tag.
+          </video>
+    </section>
+
+    <section>
+        <h3 id="Feature4">4 - <u>FORM ENHANCEMENT</u></h3>
+        <p>New input types and attributes simplify form creation and validation.<br><br>
+        <b>Example :- </b> </p>
+        <label for="email">E-mail :</label>
+        <input type="email" placeholder="abc@gmail.com" name="email" id="email" required /><br><br>
+
+        <label for="password">Password :</label>
+        <input type="password"  placeholder="********" name="password" id="password" required min="8" max="12" /><br><br>
+
+        <button type="submit" id="submit">Sign In</button><br><br>
+    </section>
+
+    
+    <section>
+        <h3 id="Feature5">5 - <u>ARTICLE ELEMENT</u></h3>
+        <p>The &lt;article&gt; tag specifies independent, self-contained content. <br> A potential source for Article Element is:
+            <ul>
+           <li> A magazine/newspaper article</li>
+           <li> A blog entry</li>
+           <li> A forum post</li>
+           <li> A user-submitted a comment</li> </ul></p>
+
+           <article>
+            <h3>Article Title</h3>
+            <p>
+            This is a sample article content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, saepe!</p>
+            </article>
+    </section>
+
+    <footer><p>Arpita Kumari &copy; 2023</p></footer>
+</body>
+</html>
