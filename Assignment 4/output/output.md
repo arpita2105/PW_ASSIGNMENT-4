@@ -1,9 +1,0 @@
-# OUTPUT
-
-## SOLUTION 5 OUTPUT
-
-
-
-
-
-## SOLUTION 6 OUTPUT
